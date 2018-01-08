@@ -1,0 +1,58 @@
+.choice {
+	color: white;
+	border-radius: 4px;
+	font-size: 1.6em;
+	font-weight: normal;
+	padding: 10px 20px 10px 20px;
+	margin-right: 10px;
+}
+
+#classesForm input[type="radio"]:checked + label {
+    font-style: italic;
+}
+
+input[type="radio"] {
+	display: none;
+	font-size: 1.5em;
+}
+
+#choice-rangers {
+	background-color: #ff4c4c;
+	margin-left: -10px;
+}
+
+#choice-cuse {
+	background-color: #ffa500;
+}
+
+#choice-sabres {
+	background-color: #ffd300;
+}
+
+#choice-celtics {
+	background-color: #00B057; /* koding's logo green */
+}
+
+#choice-yanks {
+	background-color: #337ab7;
+}
+
+#go-button {
+    background-color: purple; /* koding's logo green */
+}
+
+.student {
+	background-color: #337ab7; /* bootstrap's primary button color */
+	border-radius: 2px;	
+	color: white;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.7vw;
+	font-weight: normal;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding-top: 6px;
+	padding-right: 12px;
+	padding-bottom: 6px;
+	text-align: center;
+}

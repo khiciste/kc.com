@@ -1,0 +1,196 @@
+/* KEVINCLELAND.COM v2.0 */
+
+/* CENTERED COLUMNS */
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+.centered-text {
+    text-align: center;   
+}
+/* END CENTERED */
+
+.container {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+#nav_first_name {
+    color: gray;
+    font-size: 44px;
+    font-weight: 300;
+    vertical-align: sub;
+}
+
+#nav_last_name {
+    color: black;
+    font-size: 28px;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+.navbar-default {
+    background-color: transparent;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.navItem {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.navItem.active {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Work Sans', 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron {
+    height: auto;
+}
+
+.jumbotron p {
+    font-size: 18px;
+}
+
+h3 {
+    color: #00B057; /* koding's logo green */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+p {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.caption {
+	margin-top: 16px;
+	position: relative;
+	text-align: center;
+}
+
+#addIdDiv {
+    color: #FF4747;
+    font-weight: bold;
+}
+
+#polar-pi-img {
+	display: block;
+	margin-top: 24%;
+    margin-bottom: 24%;
+	position: relative;
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-moz-transform: rotate(90deg); /* Mozilla */
+	-o-transform: rotate(90deg); /* Opera? */
+	-webkit-transform: rotate(90deg); /* Safari and Chrome */
+	transform: rotate(90deg);
+}
+
+#america {
+	color: #FF4747;
+	font-weight: bold;
+}
+
+#pi-symbol {
+	color: #FF4747;
+	font-family: Cambria;
+	font-size: 24px;
+}
+
+#starbucks {
+	color: #5CAD5C;
+}
+
+/* CONTACT PAGE */
+#contact-title-row {
+    margin: 2.1rem 0 1.68rem 0;
+    /*padding-left: -15px;*/
+}
+#contact-title {
+    font-size: 64px;
+}
+#contact-form {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-left: 0;
+}
+#contact-form label {
+    font-weight: normal;
+}
+.phone {
+	width: 60px;
+	display: inline;
+}
+#contact-title-col {
+    /*padding-left: -15px !important;*/
+}
+
+/* FOOTER ================================================ */
+
+.foot {
+    color: gray;
+    font-size: 12px;
+    text-align: right;
+    vertical-align: super;
+}
+
+#foot-name-link {
+    margin-right: 5px;
+}
+
+.glyphs {
+    float: right;
+    height: 18px;
+    width: auto;
+}
+
+.glyphs:hover, glyphs:active {
+    height: 20px;
+    width: auto;
+}

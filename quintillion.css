@@ -1,0 +1,78 @@
+body, .jumbotron p, p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#playButton {
+    font-size: 16px;
+}
+
+
+/* USER'S LUCKY NUMBERS */
+.luckyNumbersRow {
+    height: auto;
+}
+
+.lucky-col {
+    width: 8vw;
+    height: 4vw;
+    padding: 0;    
+}
+
+input {
+    left: -1px;
+    width: 95%;
+    height: 100%;
+    padding: 0;
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+    box-sizing:content-box;
+}
+
+.luckyNumbers {
+    border: 1px solid gray;
+    font-size: 3vw;
+    text-align: center;
+    padding: 0;
+}
+
+/* WINNING LOTTO BALLS */
+.lotto-col {
+    position: relative;
+    width: 8vw;
+    height: 8vw;
+    padding: 0;
+}
+
+.lotto-ball {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: whitesmoke;
+    border-radius: 50%;
+    font-size: 3vw;
+    color: black;
+    line-height: 250%;
+    text-align: center;
+}
+
+.resultsSpan {
+    color: #4cae4c;
+}
+
+.calcImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+}
+
+.bigNumber {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.repeating {
+    text-decoration: overline;
+}

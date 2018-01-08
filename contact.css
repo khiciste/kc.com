@@ -1,0 +1,29 @@
+.contactForm {
+    margin-left: 3vw;
+}
+
+.star {
+	color:#FF4747;
+}
+
+#emailAlert {
+	color: #FF4747;
+}
+
+#emailsMatch {
+    color: #4cae4c; /* bootstrap's success button color */
+}
+
+.phone {
+	width: 60px;
+	display: inline;
+}
+
+.hidden {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}

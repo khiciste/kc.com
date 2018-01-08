@@ -1,0 +1,134 @@
+/* DO NOT CHANGE */
+/*
+    CSS will apply to dynamically generated cards
+*/
+
+body {
+    color: #212121;
+    font-size: 22px;
+    /*padding-right: 10px;*/
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#title-link {
+    color: red !important;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+
+#title {
+    margin-bottom: 0;
+}
+
+h6 {
+    padding-left: 2px;
+}
+
+.gc_credit {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*a:visited {*/
+/*    color: red;*/
+/*}*/
+
+.tag {
+    background-color: #3949ab; /* indigo darken-1 */
+    color: white;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: normal;
+    padding: 6px;
+    margin: 4px 4px;
+    box-shadow: 2px 2px 2px #888888;
+    width: auto;
+}
+
+.all {
+    font-weight: bold;
+}
+
+.cards {
+    width: 100%;
+}
+
+.card {
+    /*width: 700px;*/
+    height: 500px;
+    border: 1px solid #757575;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 5px 3px #888888;
+}
+
+.image {
+    position: absolute;
+    right: 20px;
+}
+
+img {
+    width: auto;
+    height: 300px;
+}
+
+@media (max-width: 600px) {
+  .card {
+      height: 500px;
+  }
+  
+  span {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 800px) {
+  .card {
+    width: 700px;
+  }
+  img {
+      max-width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .card {
+    height: 500px;
+    width: 900px;
+  }
+  img {
+      max-width: 800px;
+  }
+}
+
+span {
+    width: 300px;
+}
+
+.createdby {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.tag.course {
+    color:white;
+    background-color: #7b1fa2; /* purple darken-2 */
+}
